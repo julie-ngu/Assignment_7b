@@ -1,0 +1,263 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{487, 168}, {425, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "hourly_wage_textfield",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "78C201F5-2B41-4862-923F-49CEB3B18803",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{63, 64}, {193, 33}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "view_history_button_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "View Wages History",
+          "uuid" : "0CE333C2-690C-4FFC-ACE5-9E35B4B187E7",
+          "class" : "Button",
+          "name" : "view_history_button",
+          "font_size" : 20
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{63, 105}, {193, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "clear_history_button_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Clear Wages History",
+          "uuid" : "7039F7D4-A508-4E1A-9869-754E2DA87920",
+          "class" : "Button",
+          "name" : "clear_history_button",
+          "font_size" : 20
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{920, 64}, {40, 40}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "info_button_touch_up_inside",
+          "font_size" : 15,
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "",
+          "uuid" : "4A4D71AB-2976-4DE2-9724-A039CAB62B13",
+          "class" : "Button",
+          "name" : "info_button",
+          "image_name" : "iob:ios7_lightbulb_outline_256"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{111, 168}, {368, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "instruction_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "B0E75994-55DC-49A2-AB9E-88F423749E20",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Input your hourly wage ($CAD per hour): ",
+          "font_size" : 20,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{264, 291}, {534, 343}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "9D05C3F0-C9C8-4DDB-95E7-BBCABCEA9AD9",
+          "font_size" : 20,
+          "frame" : "{{412, 284}, {200, 200}}",
+          "editable" : false,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "wages_output_textview",
+          "flex" : "WH"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{487, 217}, {104, 41}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_button_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "BE251783-0860-49D6-8B8E-D21CF9269031",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 20
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{63, 64}, {897, 41}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 30,
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "FE7797E3-20A5-48FE-9DE8-3DB69249E7E3",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : " More Information",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "name" : "info_title_label",
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{63, 64}, {897, 41}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 30,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "EC0B60ED-E78B-42EF-A945-321D725A171F",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : " Wages History",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "name" : "history_title_label",
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{63, 104}, {897, 530}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "B39AACB0-AC16-48DB-A20A-2398C342ACF1",
+          "font_size" : 17,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{412, 284}, {200, 200}}",
+          "editable" : false,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text" : "Keep in mind: this calculator calculates your wages using the information below, thereby producing approximate values for them. \n\nFor a regular Canadian citizen living in Ontario:\n\nThe limit to the number of working hours in a day is 8 hours.\n\nThe average number of working hours in a week is 40 hours.\n\nThe average number of days worked in one week is 5 days (each day having 8 working hours).\n\nThe number of months per year is 12 months.\n\nThe number of weeks per year is 52 weeks. \n\nThe average number of weeks in a month is thereby approximately 4.33 weeks (52\/12).",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "information_textview",
+          "flex" : "WH"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{63, 105}, {897, 531}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "EC8DA817-F12A-4FB6-9E8F-C2E94501E318",
+          "font_size" : 17,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{412, 284}, {200, 200}}",
+          "editable" : false,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "wages_history_textview",
+          "flex" : "WH"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{487, 564}, {119, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "view_back_button_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "< Go Back",
+          "uuid" : "D6D826A7-AC9D-4628-B5C4-108648131B52",
+          "class" : "Button",
+          "name" : "view_back_button",
+          "font_size" : 20
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{487, 564}, {119, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "alpha" : 1,
+          "action" : "info_back_button_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "< Go Back",
+          "uuid" : "2EEEA116-4327-49C8-9239-47E41F9A50F6",
+          "class" : "Button",
+          "name" : "info_back_button",
+          "font_size" : 20
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
